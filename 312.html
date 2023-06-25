@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Modern Checkout Page</title>
+  <title>Modern Neon Checkout Page</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       background-color: #f2f2f2;
       text-align: center;
     }
-    
+
     .container {
       max-width: 500px;
       margin: 0 auto;
       padding: 40px;
-      background-color: #ffffff;
+      background-color: #000000;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    
+
     h1 {
-      color: #333333;
+      color: #ffffff;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
     }
-    
+
     p {
-      color: #777777;
+      color: #ffffff;
+      font-size: 18px;
+      margin-bottom: 20px;
     }
-    
+
     .download-link {
       display: inline-block;
       margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #55acee;
-      color: #ffffff;
+      padding: 12px 24px;
+      background-color: #f8e71c;
+      color: #000000;
+      font-size: 20px;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 30px;
       transition: background-color 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      position: relative;
     }
-    
+
     .download-link:hover {
-      background-color: #2288dd;
+      background-color: #ffdf37;
+    }
+
+    .download-link::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      background: linear-gradient(45deg, #ffdf37, #f8e71c);
+      z-index: -1;
+      filter: blur(20px);
     }
   </style>
 </head>
@@ -46,8 +67,10 @@
   <div class="container">
     <h1>Download Page</h1>
     <p>Click the link below to download the file:</p>
-    <a href="google.com" download class="download-link">Download</a>
+    <a href="sunny.txt" download class="download-link">Download</a>
     <p>Checkout</p>
   </div>
 </body>
+<script> window.intergramId = "403345297" </script>
+<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
 </html>
