@@ -9,6 +9,43 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
 }
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.store-name {
+  color: #ff8c00;
+}
+
+.main {
+  padding: 20px;
+}
+
+.upgrade-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.upgrade-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
+
 body a{
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
